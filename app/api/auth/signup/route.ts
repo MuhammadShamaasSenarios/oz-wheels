@@ -1,4 +1,4 @@
-import { prisma } from "@/src/lib/prisma";
+import { prisma } from "@/app/lib/prisma";
 const bcrypt = require("bcrypt");
 import { NextResponse } from "next/server";
 
